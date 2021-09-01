@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<!--*********** Head *****************-->
+<head>
+<title> Shlok's Games </title>
+<style>
+
+body{
+margin:0;
+}
+ 
+div{
+background:#00b4d8;
+width:900px;
+margin:0 auto;
+padding:40px;
+border-radius:5px;
+}
+
+input[type=text],[type=email],textarea{
+width:100%;
+padding:12px;
+border:1px solid #03045E;
+border-radius:4px;
+}
+
+input[type=Submit]{
+background: #03045E;
+color:white;
+border:none;
+width:100%;
+padding:12px 20px;
+font-weight:bold;
+font-size:18px;
+border-radius:4px;
+cursor:pointer;
+}
+
+textarea{
+resize:none;
+}
+
+input[type=Submit]:hover{
+background:#48CAE4;
+}
+
+footer{
+background:#03045E;
+padding:40px;
+}
+
+</style>
+</head>
+<!--*********** Body *****************-->
+<body>
+<!--*********** Header *****************-->
+<header>
+<section style="background:#00b4d8; padding:8px;">
+<ul style="list-style:none; word-spacing:40px;">
+<li style="display:inline-block;"><a href = "index.html" style="background:#0096c7; padding:8px 10px; border-radius:4px; color:black; text-decoration:none;"> Home<a/></li>
+<li style="display:inline-block;"><a href = "hobby.html" style="background:#0096c7; padding:8px 10px; border-radius:4px; color:black; text-decoration:none;"> Hobby<a/></li>
+<li style="display:inline-block;"><a href = "contact.html" style="background:#0096c7; padding:8px 10px; border-radius:4px; color:black; text-decoration:none;"> Contact</a></li>
+</ul>
+</section>
+<section style="background:#0096c7; padding:8px;text-align:center;">
+<h1> Contact</h1>
+</section>
+</header>
+
+<!--*********** Main *****************-->
+<main style="background:#48CAE4; padding:8px;">
+
+<!--*********** Form *****************-->
+<div>
+<center><h2>Write a Review !</h2></center>
+<form name="Contactform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScR1zS8_8YQwry32z1IPt0GR_jX9R7KNznVsNKgBJ3ivsNBzA/formResponse" method="POST">
+
+<label> Name
+<input type="text" name="entry.1392790115" required>
+</label>
+<br>
+<br>
+
+<label> Email
+<input type="email" name="entry.598665746" required placeholder="me@example.com">
+</label>
+<br>
+<br>
+
+<label> Review
+<textarea name="entry.158142571" required placeholder="Write a review" cols="20" rows="10"></textarea>
+</label>
+<br>
+<br>
+<input type="Submit" onclick="return check(this.form)" value="Submit">
+</form>
+</div>
+
+</main>
+
+<!--*********** Footer *****************-->
+<footer style="text-align:center;">
+<h2 style="color:#48CAE4;"> lets keep in touch</h2>
+<br>
+<a href="mailto:lepcha.bandana@gmail.com" style="background:#48CAE4; padding:10px 20px; border-radius:4px; color:#03045E; text-decoration:none;"> Connect</a> 
+<br>
+</footer>
+</body>
+</html>
